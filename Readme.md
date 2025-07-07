@@ -23,7 +23,15 @@ Track your macros, water intake, and weight effortlessly — built with Node.js,
 - **AI Integration**: OpenAI API 
 
 ---
+### **Start the Server:**
+     node server.js
 
+---
+### **Import the data:**
+     cd scripts
+     node importFood.js
+
+---
 ## Endpoints
 
 1. Register 
