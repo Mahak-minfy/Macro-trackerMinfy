@@ -46,7 +46,7 @@ POST http://localhost:5000/api/auth/register
 ![register](./screenshots/register.png)
 
 2. Login 
-POST http://localhost:5000/api/auth/login
+- POST http://localhost:5000/api/auth/login
 <pre>
   {
   "email": "ymahak@example.com",
@@ -56,15 +56,18 @@ POST http://localhost:5000/api/auth/login
 ![login](./screenshots/login.png)
 
 3. Profile 
-GET http://localhost:5000/api/profile
+- GET http://localhost:5000/api/profile
+  
 ![profile](./screenshots/profile.png)
 
 4. Macro update
-PUT http://localhost:5000/api/profile
+- PUT http://localhost:5000/api/profile
+  
 ![update](./screenshots/macro-update.png)
 
 5. Search Food
-GET http://localhost:5000/api/foods?search-rice
+- GET http://localhost:5000/api/foods?search-rice
+  
 ![search](./screenshots/food-search.png)
 
 6. Add Food Entry
@@ -84,7 +87,7 @@ GET http://localhost:5000/api/foods?search-rice
 
 
 ## Open API 
-For getting food suggestion we get the GEMINI_API_KEY 
+- For getting food suggestion we get the GEMINI_API_KEY 
 11. Suggestion from Open AI 
 ![suggestion](./screenshots/api_suggestion.png)
 
