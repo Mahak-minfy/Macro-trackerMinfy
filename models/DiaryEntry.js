@@ -14,7 +14,7 @@ const DiaryEntrySchema = new mongoose.Schema({
     quantity: { type: Number, required: true },
     meal_type: {
         type: String,
-        enum: ['Breakfast', 'Lunch', 'Dinner', 'Snack'],
+        enum: ['Breakfast', 'Lunch', 'Dinner', 'Snacks'],
         required: true
     },
     log_date: { type: Date, required: true }
