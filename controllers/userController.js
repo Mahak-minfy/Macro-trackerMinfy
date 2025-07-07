@@ -1,8 +1,6 @@
 const User = require('../models/User');
 
-// @desc    Get user profile
-// @route   GET /api/profile
-// @access  Private
+
 exports.getUserProfile = async (req, res) => {
   try {
     const userProfile = await User.findById(req.user.id).select('-password');
@@ -13,9 +11,7 @@ exports.getUserProfile = async (req, res) => {
   }
 };
 
-// @desc    Update user target macros
-// @route   PUT /api/profile
-// @access  Private
+
 exports.updateUserProfile = async (req, res) => {
   const { target_calories, target_protein, target_carbs, target_fat, target_water } = req.body;
 

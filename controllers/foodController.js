@@ -1,6 +1,6 @@
 const Food = require('../models/Food');
 
-// Search food by name
+
 exports.searchFoods = async (req, res) => {
   try {
     const search = req.query.search || '';
