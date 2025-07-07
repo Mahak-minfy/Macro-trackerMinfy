@@ -52,6 +52,7 @@ POST http://localhost:5000/api/auth/login
   "email": "ymahak@example.com",
   "password": "minfytech@12"
 }
+</pre>
 ![login](./screenshots/login.png)
 
 3. Profile 
