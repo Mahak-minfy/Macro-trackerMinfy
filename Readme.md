@@ -24,7 +24,7 @@ Track your macros, water intake, and weight effortlessly — built with Node.js,
 
 ---
 ### **Start the Server:**
-    - node server.js
+     node server.js
 
 
 ## Endpoints
