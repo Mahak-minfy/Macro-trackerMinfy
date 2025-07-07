@@ -11,7 +11,7 @@ mongoose.connect(process.env.MONGO_URI, {
 
 const results = [];
 
-fs.createReadStream('data/foods.csv')
+fs.createReadStream('data/foodData.csv')
   .pipe(csv())
   .on('data', (row) => {
     results.push({
