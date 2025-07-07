@@ -32,6 +32,7 @@ Track your macros, water intake, and weight effortlessly — built with Node.js,
      node importFood.js
 
 ---
+
 ## Endpoints
 
 1. Register 
