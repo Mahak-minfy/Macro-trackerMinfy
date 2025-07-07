@@ -27,7 +27,7 @@ fs.createReadStream('data/foodData.csv')
   .on('end', async () => {
     try {
       await Food.insertMany(results);
-      console.log(' Imported food data');
+      console.log(' Imported the food data');
       process.exit();
     } catch (err) {
       console.error(' Error:', err);
