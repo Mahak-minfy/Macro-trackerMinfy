@@ -46,7 +46,6 @@ POST http://localhost:5000/api/auth/register
 ![register](./screenshots/register.png)
 
 2. Login 
-Endpoint:
 POST http://localhost:5000/api/auth/login
 <pre>
   {
@@ -57,17 +56,14 @@ POST http://localhost:5000/api/auth/login
 ![login](./screenshots/login.png)
 
 3. Profile 
-Endpoint:
 GET http://localhost:5000/api/profile
 ![profile](./screenshots/profile.png)
 
 4. Macro update
-Endpoint:
 PUT http://localhost:5000/api/profile
 ![update](./screenshots/macro-update.png)
 
 5. Search Food
-Endpoint:
 GET http://localhost:5000/api/foods?search-rice
 ![search](./screenshots/food-search.png)
 
